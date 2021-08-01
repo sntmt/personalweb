@@ -1,4 +1,19 @@
 <main>
-    <h1>page</h1>
-    <%- page.content %>
+    <aside>
+        <header>
+        </header>
+        <ul>
+        <% page.menu.forEach(post=> { %>
+            <li><a href="#<%- post %>">
+                    <%- post %>
+                </a></li>
+            <% }) %>
+        </ul>
+    </aside>
+    <article>
+        <header>
+            <h1><%- page.title %></h1>
+        </header>
+            <%- page.content %>
+    </article>
 </main>

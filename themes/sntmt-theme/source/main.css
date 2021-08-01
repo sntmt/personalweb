@@ -1,9 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif&display=swap");
+@import "../normalize.css";
 nav, footer {
+  font-family: "Open Sans", sans-serif;
   display: flex;
-  height: 42px;
+  height: 60px;
   align-items: center;
+  margin: 0 30px;
+  font-size: 1rem;
+}
+nav ul li, footer ul li {
+  display: inline-block;
+}
+nav a, footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:hover, footer a:hover {
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
   justify-content: space-between;
-  margin: 0 12px;
+  position: sticky;
+  top: 0;
+  background-color: #eceeed;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  bottom: 0;
+}
+footer span {
+  margin: 0 10px;
 }
 
 .logo {
@@ -13,13 +45,23 @@ nav, footer {
 
 html {
   background-color: #eceeed;
+  color: #3c3c3c;
+  overflow-y: scroll;
 }
 
 body {
+  font-family: "PT Serif", serif;
+  font-size: 1.2rem;
   min-height: 100vh;
   margin: 0;
   display: grid;
   grid-template-rows: auto 1fr auto;
+}
+
+p {
+  margin-top: 0;
+  padding: 0;
+  line-height: 1.6rem;
 }
 
 ul {
@@ -28,7 +70,55 @@ ul {
 }
 ul li {
   list-style: none;
-  display: inline-block;
+  line-height: 1.6rem;
+}
+
+svg {
+  display: block;
+  margin: 60px auto;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  grid-gap: 60px;
+}
+main a {
+  color: black;
+  text-decoration: none;
+  background-color: lightgoldenrodyellow;
+  padding: 0 5px;
+}
+main a:hover {
+  background-color: yellow;
+}
+main aside {
+  font-size: 1.1rem;
+  text-align: right;
+}
+main aside h3 {
+  padding: 0;
+  margin: 0;
+  color: gray;
+  font-size: 1.1rem;
+  font-weight: 100;
+  line-height: 1.6rem;
+}
+main h1 {
+  font-weight: 300;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+}
+main h2 {
+  font-weight: 100;
+  font-size: 1.4rem;
+}
+main header {
+  height: 100px;
 }
 
 /*# sourceMappingURL=main.css.map */

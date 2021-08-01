@@ -1,18 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif&display=swap')
+@import "../normalize.css"
 @import "./nav.sass"
 
 html
   background-color: #eceeed
+  color: rgb(60,60,60)
+  overflow-y: scroll
 
 body
+  font-family: 'PT Serif', serif
+  font-size: 1.2rem
   min-height: 100vh
   margin: 0
   display: grid
   grid-template-rows: auto 1fr auto
 
+p
+  margin-top: 0
+  padding: 0
+  line-height: 1.6rem
 
 ul
   margin: 0
   padding: 0
   li
     list-style: none
-    display: inline-block
+    line-height: 1.6rem
+
+
+svg
+  display: block
+  margin: 60px auto
+
+main
+  width: 900px
+  margin:  0 auto
+  margin-top: 120px
+  display: grid
+  grid-template-columns: 2fr 5fr
+  grid-gap: 60px
+
+  a
+    color: black
+    text-decoration: none
+    background-color: lightgoldenrodyellow
+    padding: 0 5px
+
+    &:hover
+      background-color: yellow
+
+  aside
+    font-size: 1.1rem
+    text-align: right
+
+    h3
+      padding: 0
+      margin: 0
+      color: gray
+      font-size: 1.1rem
+      font-weight: 100
+      line-height: 1.6rem
+
+  
+  h1
+    font-weight: 300
+    font-size: 1.8rem
+    margin: 0
+    padding: 0
+
+  h2
+    font-weight: 100
+    font-size: 1.4rem
+
+  header
+    height: 100px
+
