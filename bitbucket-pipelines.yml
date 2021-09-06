@@ -1,0 +1,15 @@
+pipelines:
+  branches:
+    master:
+      - step:
+          name: deploy to S3
+          deployment: production
+          script:
+            - pipe: atlassian/aws-s3-deploy:0.3.8
+              variables:
+                AWS_ACCESS_KEY_ID: AKIAROEFAI3JZQ2P7XUP
+                AWS_SECRET_ACCESS_KEY: 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
+                AWS_DEFAULT_REGION: 'eu-west-1'
+                S3_BUCKET: 'sntmt.com'
+                LOCAL_PATH: 'public'
+                ACL: 'public-read'
