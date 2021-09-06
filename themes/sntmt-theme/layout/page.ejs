@@ -3,17 +3,15 @@
         <header>
         </header>
         <ul>
-        <% page.menu.forEach(post=> { %>
-            <li><a href="#<%- post %>">
-                    <%- post %>
-                </a></li>
-            <% }) %>
+            <%- toc(page.content, {list_number: false}) %>
         </ul>
     </aside>
     <article>
         <header>
-            <h1><%- page.title %></h1>
+            <h1>
+                <%- page.title %>
+            </h1>
         </header>
-            <%- page.content %>
+        <%- page.content %>
     </article>
 </main>
