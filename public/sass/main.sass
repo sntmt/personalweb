@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif&display=swap')
+@import "../normalize.css"
+@import "./nav.sass"
+
+$max-width: 900px
+$responsible-width: 920px
+
+html
+  background-color: #eceeed
+  color: rgb(60,60,60)
+  overflow-y: scroll
+  scroll-behavior: smooth
+
+:target:before 
+  content: ""
+  display: block
+  height: 100px
+  margin: -100px 0 0
+
+body
+  font-family: 'PT Serif', serif
+  font-size: 1.2em
+  min-height: 100vh
+  margin: 0
+  display: grid
+
+h1, h2, h3, h4
+  margin: 0
+  padding: 0
+
+p
+  margin-top: 0
+  padding: 0
+  line-height: 1.6rem
+
+ul
+  margin: 0
+  padding: 0
+  li
+    list-style: none
+    line-height: 1.6rem
+
+ol
+  margin: 0
+  padding: 0
+
+svg
+  display: block
+  margin: 60px auto
+
+.icon
+  font-size: 2rem
+
+main
+  a
+    color: black
+    text-decoration: none
+    &:hover
+      color: blue
+
+  aside
+    font-size: 1.1rem
+    text-align: right
+
+    h3
+      padding: 0
+      margin: 0
+      color: gray
+      font-size: 1.1rem
+      font-weight: 100
+      line-height: 1.6rem
+  
+  h1
+    font-weight: 300
+    font-size: 1.8rem
+    margin: 0
+    padding: 0
+
+  h2
+    font-weight: 100
+    font-size: 1.4rem
+
+  header
+    height: 100px
+    h2
+      margin: 18px 0
+  article
+      h2
+        margin-bottom: 18px
+        font-weight: 600
+
+
+@media only screen and (min-width: $responsible-width)
+  body
+    grid-template-rows: 60px auto 60px
+  main
+    width: $max-width
+    margin:  0 auto
+    margin-top: 120px
+    display: grid
+    grid-template-columns: 2fr 5fr
+    grid-gap: 60px
+
+  aside
+    svg
+      display: none
+
+@media only screen and (max-width: $responsible-width +1 )
+  .tocPage
+    display: none
+
+  aside
+    order: 2
+  article
+    order: 1
+  main
+    padding: 0 20px
+    margin: 0 auto
+    margin-top: 60px
+    display: grid
+    grid-template-columns: 1fr
+    aside
+      text-align: left
+      header
+        height: 20px
+      svg
+        display: block
+    svg
+      display: none
