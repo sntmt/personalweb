@@ -1,3 +1,10 @@
 <nav>
-  <div><a href="/"><img class="logo" src="<%- config.root %>img/logo.png" /></a></div>
+  <div><a href="/"><img class="logo" src="<%- config.url %>/img/logo.png" /></a></div>
+  <ul>
+    <% site.pages.forEach(post=> { %>
+      <li><a href="<%- config.url %>/<%- post.path %>">
+          <%- post.title %>
+        </a></li>
+      <% }) %>
+  </ul>
 </nav>

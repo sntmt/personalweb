@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo --config _config-production.yml generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server --draft & sass --watch ./themes/sntmt-theme/source/sass/main.sass:./themes/sntmt-theme/source/main.css",
+    "server": "hexo server --draft --config _config.yml & sass --watch ./themes/sntmt-theme/source/sass/main.sass:./themes/sntmt-theme/source/main.css",
     "page": "hexo new page"
   },
   "hexo": {
