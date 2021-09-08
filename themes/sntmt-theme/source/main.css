@@ -7,6 +7,7 @@ nav, footer {
   align-items: center;
   padding: 0 30px;
   font-size: 1rem;
+  background-color: #eceeed;
 }
 nav ul li, footer ul li {
   display: inline-block;
@@ -17,7 +18,7 @@ nav a, footer a {
   font-weight: 300;
 }
 nav a:hover, footer a:hover {
-  background-color: lightgoldenrodyellow;
+  font-weight: 600;
 }
 
 nav {
@@ -25,13 +26,11 @@ nav {
   justify-content: space-between;
   position: sticky;
   top: 0;
-  background-color: #eceeed;
 }
 
 .logo {
   height: 20px;
   width: auto;
-  /* Desktops and laptops ----------- */
 }
 
 @media only screen and (min-width: 840px) {
@@ -44,8 +43,6 @@ nav {
   footer span {
     margin: 0 10px;
   }
-
-  /* Smartphones (portrait and landscape) ----------- */
 }
 @media only screen and (max-width: 841px) {
   footer {
@@ -67,6 +64,14 @@ html {
   background-color: #eceeed;
   color: #3c3c3c;
   overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 100px;
+  margin: -100px 0 0;
 }
 
 body {
@@ -75,6 +80,11 @@ body {
   min-height: 100vh;
   margin: 0;
   display: grid;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -92,19 +102,26 @@ ul li {
   line-height: 1.6rem;
 }
 
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 svg {
   display: block;
   margin: 60px auto;
 }
 
+.icon {
+  font-size: 2rem;
+}
+
 main a {
   color: black;
   text-decoration: none;
-  background-color: lightgoldenrodyellow;
-  padding: 0 5px;
 }
 main a:hover {
-  background-color: yellow;
+  color: blue;
 }
 main aside {
   font-size: 1.1rem;
@@ -131,11 +148,21 @@ main h2 {
 main header {
   height: 100px;
 }
+main header h2 {
+  margin: 18px 0;
+}
+main article h2 {
+  margin-bottom: 18px;
+  font-weight: 600;
+}
 
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 840px) {
+@media only screen and (min-width: 920px) {
+  body {
+    grid-template-rows: 60px auto 60px;
+  }
+
   main {
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
     margin-top: 120px;
     display: grid;
@@ -146,10 +173,12 @@ main header {
   aside svg {
     display: none;
   }
-
-  /* Smartphones (portrait and landscape) ----------- */
 }
-@media only screen and (max-width: 841px) {
+@media only screen and (max-width: 921px) {
+  .tocPage {
+    display: none;
+  }
+
   aside {
     order: 2;
   }
@@ -166,7 +195,7 @@ main header {
     grid-template-columns: 1fr;
   }
   main aside {
-    text-align: center;
+    text-align: left;
   }
   main aside header {
     height: 20px;
