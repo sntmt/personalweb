@@ -7,9 +7,9 @@ pipelines:
           script:
             - pipe: atlassian/aws-s3-deploy:0.3.8
               variables:
-                AWS_ACCESS_KEY_ID: AKIAROEFAI3JZQ2P7XUP
-                AWS_SECRET_ACCESS_KEY: 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
-                AWS_DEFAULT_REGION: 'eu-west-1'
+                AWS_ACCESS_KEY_ID: AKIAROEFAI3JSKY2H5NK
+                AWS_SECRET_ACCESS_KEY: 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
+                AWS_DEFAULT_REGION: 'eu-west-3'
                 S3_BUCKET: 'sntmt.com'
                 LOCAL_PATH: 'public'
                 ACL: 'public-read'
