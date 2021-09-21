@@ -73,6 +73,21 @@ nav {
     display: none;
   }
 }
+.footnotes {
+  margin-left: 20px;
+}
+.footnotes p {
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+
+.footnote-ref {
+  letter-spacing: 3px;
+}
+.footnote-ref a {
+  color: blue;
+}
+
 html {
   background-color: #eceeed;
   color: #3c3c3c;
