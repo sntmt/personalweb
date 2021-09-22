@@ -5,9 +5,9 @@ date: 2021-07-18 20:32:09
 ## The mean of "Fullstack"
 Contained in the word **Fullstack** we find dozens of technologies, frameworks, programming languages, architectures, functionalities, methodologies ... sometimes very different from one another.
 
-As a developer, it is my obligation to create code that is optimized, testable, documented, secure, easy to maintain and resistant to errors.
+As a developer, is important to create code that is optimized, testable, documented, secure, easy to maintain and resistant to errors.
 
-From my point of view, you have to focus on a stack that allows me to offer work efficiently, advance my knowledge in certain areas and not be "the guy who does everything", but superficially.
+From my point of view, you have to focus on a stack that allows me to offer work efficiently in certain areas and not be "the guy who does everything", but superficially.
 
 Can you be an expert in a Java or Python server-side framework, and at the same time know all the ins and outs of creating a dynamic app on the client side? I do not think so.
 

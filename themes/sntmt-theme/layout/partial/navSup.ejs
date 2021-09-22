@@ -2,9 +2,9 @@
   <div><a href="/"><img class="logo" src="<%- config.url %>/img/logo.png" alt="sntmt"/></a></div>
   <ul>
     <% site.pages.forEach(post=> { %>
-      <li><a href="<%- config.url %>/<%- post.path %>">
+      &nbsp;<li><a href="<%- config.url %>/<%- post.path %>">
           <%- post.title %>
-        </a></li>&nbsp;
+        </a></li>
       <% }) %>
   </ul>
 </nav>
