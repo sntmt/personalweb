@@ -2,39 +2,30 @@
 title: about
 date: 2021-07-18 20:32:09
 ---
-## The mean of "Fullstack"
-Contained in the word **Fullstack** we find dozens of technologies, frameworks, programming languages, architectures, functionalities, methodologies ... sometimes very different from one another.
+## Hello
+Learning is one of the most important parts of my life, both because of the effort to understand and learn new technologies and methodologies, and the time I spend trying them every day.
 
-As a developer, it is my obligation to create code that is optimized, testable, documented, secure, easy to maintain and resistant to errors.
+The experience as a professional is a mixture of art and design, computer graphics generation and programming at the same time; In software development, think analytically, optimally and logically. In the design part, in a creative, abstract way, thinking not in code, but in colors, shapes, movement, to produce a reaction to the viewer.
 
-From my point of view, you have to focus on a stack that allows me to offer work efficiently, advance my knowledge in certain areas and not be "the guy who does everything", but superficially.
+I have no preference within software development or artistic creation in the digital field, everything seems to be interesting and it never ceases to amaze me. The mixture of both through creative and procedurally generated programming is perhaps the one that provokes the most interest.
 
-Can you be an expert in a Java or Python server-side framework, and at the same time know all the ins and outs of creating a dynamic app on the client side? I do not think so.
+## Before
+I always had the desire to learn more about software development, dedicating a little time to learning programming tools and languages, it was not until 2017 that I start my professional career as a developer began.
 
-To be honest, "expert" is not knowing, it is **mastering** an area. SPA, SSE, Kubernetes, Oauth, GRPC are randomly chosen words that take a long time to learn and master. Wanting to pretend to master all of them and offering as an expert would be for me, at least pretentious.
-## Technical Stack
-Javascript / Typescript, some Python
+Until then, I worked as a broadcast designer, generalist / 3D animator, and visual effects composer. Working in television and production / visual effects companies, as well as freelance, making audiovisual products that include the idea, creativity, creation of the pieces, editing and direction.
 
-*Front End*
-SPA: React, Webpack, Rxjs, Sass / CSS3
+It is when the creation of scripts and plugins for the applications with I worked such as MEL[^1]  (Maya Embedded Language), VEX[^2] in Sidefx Houdini, and later with Python, caught my attention.
 
-*Back End*
-Express, Nodejs, Mongodb.
-Templates pug, ejs,
-Lodash, Asyncjs.
-Docker, Swarm, PM2.
-Testing: Mocha, Chai.
+## Now
+Finally, in the need to learn more about software development, I end up dedicating myself to programming, working first creating user interfaces, and development of dynamic applications in the frontend, and later in the backend.
 
-*Cloud services:*
-AWS: S3, EC2, Lambdas, Cognito. 
+## Next
+Iot and new forms of interaction with the user, either through touch interfaces or tangible[^3] objects.
 
-*Metodologies*
-Agile with Scrum, sprints, SLA's
-gitflow
-## Knowledge areas
-SPA, SSR apps.
-API, RESTful, Websockets
-NOSQL, RDBM databases.
-Microservices: Containers and Deployment.
-UI, HCD, Design
-Unit / integration tests.
+Real-time graphics generation. The experience in generating 3D scenes naturally led me to want to know the process of creating graphics through Opengl, and in particular GLSL[^4]. Libraries such as Processing, Openrndr or Openframeworks.
+
+
+[^1]: [Autodesk MEL Scripting Language](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/Maya-Scripting/files/GUID-60178D44-9990-45B4-8B43-9429D54DF70E-htm.html)
+[^2]: [Sidefx Houdini VEX](https://www.sidefx.com/docs/houdini/vex/lang.html)
+[^3]: [Tangible Media Group](https://tangible.media.mit.edu/)
+[^4]: [GLSL Shading Language](https://www.khronos.org/opengl/wiki/Core_Language_(GLSL))
