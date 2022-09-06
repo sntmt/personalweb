@@ -7,6 +7,9 @@
 npm run server
 ``` 
 
+### Deploy
+firebase deploy --only hosting:sntmtpersonal
+
 ### Snippets
 > Loop de posts
 ```javascript

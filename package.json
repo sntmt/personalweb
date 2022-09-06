@@ -1,12 +1,12 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "sntmt-personalwebpage",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "build": "hexo --config _config-production.yml generate & gulp build ",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server --draft --config _config.yml & sass --watch ./themes/sntmt-theme/source/sass/main.sass:./themes/sntmt-theme/source/css/main.css",
+    "deploy": "firebase deploy --only hosting:sntmtpersonal",
+    "server": "hexo server -p 5000 --draft --config _config.yml & sass --watch ./themes/sntmt-theme/source/sass/main.sass:./themes/sntmt-theme/source/css/main.css ",
     "page": "hexo new page"
   },
   "hexo": {
