@@ -6,7 +6,7 @@
     "build": "hexo --config _config-production.yml generate & gulp build ",
     "clean": "hexo clean",
     "deploy": "firebase deploy --only hosting:sntmtpersonal",
-    "server": "hexo server -p 5000 --draft --config _config.yml & sass --watch ./themes/sntmt-theme/source/sass/main.sass:./themes/sntmt-theme/source/css/main.css ",
+    "server": "hexo server -p 4000 --draft --config _config.yml & sass --watch ./themes/sntmt-theme/source/sass/main.sass:./themes/sntmt-theme/source/css/main.css ",
     "page": "hexo new page"
   },
   "hexo": {

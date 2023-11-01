@@ -1,6 +1,11 @@
 .DS_Store
 Thumbs.db
+
 db.json
 *.log
+.firebasesr
+firebase.json
+
+public/
 node_modules/
 .deploy*/
