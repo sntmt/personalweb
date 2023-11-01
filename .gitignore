@@ -6,6 +6,5 @@ db.json
 .firebasesr
 firebase.json
 
-public/
 node_modules/
 .deploy*/
